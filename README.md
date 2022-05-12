@@ -1,12 +1,18 @@
-# Github Preview Theme
+# Monokai Preview
 
-A default Markdown preview theme for [Inkdrop](https://www.inkdrop.app/).
+> Monokai Preview theme for Inkdrop.
 
- * `styles/github-markdown.less` - Styles for light UI theme
- * `styles/github-markdown-dark.less` - Styles for dark UI theme
+# Install
 
-## Theming code blocks
+```
+ipm install monokai-preview
+```
 
-Highlighting code blocks is built with [CodeMirror](https://codemirror.net/demo/theme.html), and CSS selectors for styling code blocks are compatible with it.
-CSS selectors always start with `cm-`.
-You can easily import styles from [CodeMirror's theme](https://github.com/codemirror/CodeMirror/tree/master/theme).
+## Credits/Disclaimer
+
+Based on VSCode theme [Monokai Pro](<[monokai.pro](https://monokai.pro/)>). I have no affiliation with that project.
+
+## 📝 License
+
+Copyright &copy; 2022 [eckertalex](https://github.com/eckertalex).<br /> This project is
+[MIT](https://github.com/eckertalex/inkdrop-monokai-preview-theme/blob/master/LICENSE) licensed.
