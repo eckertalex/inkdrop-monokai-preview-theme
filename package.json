@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "theme": "preview",
   "scripts": {
-    "build": "lessc styles/less/github-markdown.less ./styles/github-markdown.css && lessc styles/less/github-markdown-dark.less ./styles/github-markdown-dark.css"
+    "build": "lessc styles/less/monokai-markdown.less ./styles/monokai-markdown.css; lessc styles/less/github-markdown.less ./styles/github-markdown.css"
   },
   "keywords": [
     "inkdrop",
@@ -14,8 +14,7 @@
   "repository": "https://github.com/eckertalex/inkdrop-monokai-preview-theme",
   "license": "MIT",
   "styleSheets": [
-    "github-markdown.css",
-    "github-markdown-dark.css"
+    "monokai-markdown.css"
   ],
   "engines": {
     "inkdrop": "^5.x"
