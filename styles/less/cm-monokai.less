@@ -1,0 +1,165 @@
+@import "./colors";
+
+.cm-monokai() {
+  .cm-searching {
+    // Ctrl + F results
+    outline: 1px solid @monokaiYellow;
+    background-color: transparent;
+  }
+  .cm-comment {
+    color: @monokaiGrey3;
+    font-style: italic;
+
+    .cm-attribute {
+      color: @monokaiGreen;
+    }
+    .cm-tag {
+      color: @monokaiPink;
+    }
+
+    .cm-type {
+      color: @monokaiTeal;
+    }
+  }
+
+  .cm-atom,
+  .cm-number {
+    color: @monokaiPurple;
+  }
+
+  .cm-property,
+  .cm-attribute {
+    color: @monokaiGreen;
+  }
+
+  .cm-header,
+  .cm-string {
+    color: @monokaiYellow;
+  }
+
+  .cm-variable,
+  .cm-tag.cm-bracket {
+    color: @monokaiOffWhite;
+  }
+
+  .cm-builtin,
+  .cm-type {
+    color: @monokaiBlue;
+  }
+
+  .cm-def {
+    color: @monokaiOrange;
+  }
+
+  .cm-tag,
+  .cm-keyword {
+    color: @monokaiRed;
+  }
+
+  .cm-link {
+    color: @monokaiRed;
+    text-decoration: none;
+  }
+
+  .cm-error {
+    background: @monokaiRed;
+    color: @monokaiOffWhite;
+  }
+
+  .cm-string.cm-url {
+    color: @monokaiGreen;
+    text-decoration: underline;
+  }
+
+  .cm-link-footref2,
+  .cm-link-barelink,
+  .cm-formatting-link.cm-link-barelink {
+    color: @monokaiWhite !important;
+  }
+
+  .cm-formatting-link,
+  .cm-formatting-link-string,
+  .cm-formatting-image,
+  .cm-formatting-list,
+  .cm-formatting-quote,
+  .cm-formatting-strong,
+  .cm-formatting-em {
+    color: @monokaiGrey2 !important;
+    text-decoration: none;
+  }
+
+  .cm-string-2 {
+    color: @monokaiGreen;
+  }
+
+  .cm-plus {
+    color: @monokaiRed;
+  }
+
+  .cm-operator,
+  .cm-meta {
+    color: @monokaiRed;
+  }
+
+  .cm-minus {
+    color: @monokaiRed;
+  }
+
+  .cm-formatting-header {
+    opacity: 0.3;
+  }
+
+  .cm-link.cm-link-footnote {
+    color: @monokaiWhite;
+  }
+
+  .cm-rangeinfo {
+    color: @monokaiWhite;
+  }
+
+  .cm-qualifier {
+    color: @monokaiRed;
+  }
+
+  .cm-quote {
+    font-style: italic;
+  }
+
+  .cm-whitespace::before {
+    color: @monokaiGrey4;
+  }
+
+  .cm-hr {
+    color: @monokaiWhite;
+  }
+
+  .cm-inline-code {
+    background: @monokaiInteraction;
+    color: @monokaiRed;
+  }
+
+  .cm-negative {
+    color: @monokaiRed;
+  }
+
+  .cm-positive {
+    color: @monokaiGreen;
+  }
+
+  .cm-header,
+  .cm-strong {
+    font-weight: bold;
+  }
+
+  .cm-em {
+    font-style: italic;
+  }
+
+  .cm-strikethrough {
+    text-decoration: line-through;
+  }
+
+  .cm-punctuation {
+    color: @monokaiOffWhite;
+  }
+}
