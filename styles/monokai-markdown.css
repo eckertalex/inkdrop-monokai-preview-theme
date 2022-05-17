@@ -27,6 +27,10 @@ body[class*="dark-ui"] .mde-preview blockquote {
 body[class*="dark-ui"] .mde-preview table {
   border-spacing: 0;
   margin-bottom: 0.7em;
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: keep-all;
 }
 body[class*="dark-ui"] .mde-preview table td,
 body[class*="dark-ui"] .mde-preview table th {
@@ -183,4 +187,13 @@ body[class*="dark-ui"] .mde-preview .cm-strikethrough {
 }
 body[class*="dark-ui"] .mde-preview .cm-punctuation {
   color: #fcfcfa;
+}
+body[class*="dark-ui"] .task-list-item {
+  list-style-type: none;
+}
+body[class*="dark-ui"] .task-list-item + .task-list-item {
+  margin-top: 0px;
+}
+body[class*="dark-ui"] .task-list-item input {
+  vertical-align: middle;
 }
