@@ -1,7 +1,7 @@
 {
   "name": "monokai-preview",
   "description": "Monokai Preview Theme for Inkdrop",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "theme": "preview",
   "scripts": {
     "build": "lessc styles/less/monokai-markdown.less ./styles/monokai-markdown.css; lessc styles/less/github-markdown.less ./styles/github-markdown.css"
