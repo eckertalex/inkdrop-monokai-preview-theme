@@ -21,7 +21,7 @@ ipm install monokai-dark-syntax
 
 ## Credits/Disclaimer
 
-Based on VSCode theme [Monokai Pro](<[monokai.pro](https://monokai.pro/)>). I have no affiliation with that project.
+Based on VSCode theme [Monokai Pro](https://monokai.pro/). I have no affiliation with that project.
 
 ## 📝 License
 
